@@ -14,7 +14,7 @@ var articles = {
                             this is the content..this is the content..this is the content..this is the content..this is the content..this is the content..this is the content..this is the content..this is the content..this is the content..this is the content..this is the content..
                         </p>`
             },
-        'articl-two' : {
+        'article-two' : {
             title: 'Article Two | Shaquib Nesar',
             heading: 'Article Two',
             date: 'Feb 12,1997',
