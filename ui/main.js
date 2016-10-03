@@ -15,7 +15,7 @@ function moveRight() {
 //from here
 var marginDown = 0;
 function moveUp(){
-    marginDown = marginDown + 1;
+    marginDown = marginDown - 1;
     img.style.marginDown = marginDown + "px";
 }
 
