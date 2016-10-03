@@ -8,19 +8,19 @@ element.innerHTML = "Welcome";
 var img = document.getElementById("madi");
 var marginLeft = 0;
 function moveRight() {
-     marginLeft = marginLeft + 1;
+     marginLeft = marginLeft + 50;
      img.style.marginLeft = marginLeft + "px";
 }
 
 //from here
 var marginDown = 0;
 function moveUp(){
-    marginDown = marginDown - 1;
+    marginDown = marginDown - 50;
     img.style.marginDown = marginDown + "px";
 }
 
 //upto here
 img.onclick = function(){
-    var interval = setInterval(moveRight, 10);
-    var interval2 = setInterval(moveUp, 10);  //this line
+    var interval = setInterval(moveRight, 100);
+    var interval2 = setInterval(moveUp, 100);  //this line
 };
